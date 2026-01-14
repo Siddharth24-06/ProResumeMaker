@@ -1,0 +1,93 @@
+/* GLOBAL STYLES */
+:root {
+  --gold-primary: #d4af37;
+  --gold-glossy: linear-gradient(145deg, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+  --black-bg: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--black-bg) !important;
+  /* Dark background with a subtle gold radial glow */
+  background-image: radial-gradient(circle at 50% -20%, #2c2408 0%, #0a0a0a 80%) !important;
+  color: #ffffff !important;
+  min-height: 100vh;
+}
+
+/* CONTAINER & LAYOUT */
+.container, .app-container {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: var(--gold-primary) !important;
+  text-shadow: 0px 0px 10px rgba(212, 175, 55, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* THE GLOSSY GOLD BUTTONS */
+button, .btn, .submit-button {
+  background: var(--gold-glossy) !important;
+  color: #000000 !important;
+  border: 1px solid #b8860b !important;
+  border-radius: 5px !important;
+  padding: 12px 24px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255,255,255,0.4) !important;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  outline: none;
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-3px) scale(1.02) !important;
+  box-shadow: 0 8px 25px rgba(248, 181, 0, 0.5) !important;
+  filter: brightness(1.1);
+}
+
+button:active {
+  transform: translateY(0px) !important;
+}
+
+/* INPUT FIELDS */
+input, textarea, select {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333 !important;
+  border-bottom: 2px solid var(--gold-primary) !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border-radius: 4px !important;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #fff !important;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.4) !important;
+}
+
+/* RESUME PREVIEW AREA */
+.resume-preview {
+  background: white !important; /* Resume stays white for printing */
+  color: #333 !important;
+  padding: 40px !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5) !important;
+}
+
+/* NAVBAR */
+nav, .navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-bottom: 1px solid var(--gold-primary);
+  padding: 1rem;
+}

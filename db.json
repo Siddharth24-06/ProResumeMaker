@@ -1,0 +1,153 @@
+{
+  "resumes": [
+    {
+      "name": "T.Siddharth",
+      "title": "Developer",
+      "phone": "52643745536",
+      "email": "hhsfnrnern@gmail.com",
+      "linkedin": "",
+      "github": "",
+      "website": "",
+      "location": "",
+      "summary": "Expert in Full Stack",
+      "skills": {
+        "programming": "C,C++",
+        "frameworks": "",
+        "databases": "",
+        "tools": "",
+        "softskills": ""
+      },
+      "experience": [],
+      "projects": [],
+      "education": [],
+      "certifications": [],
+      "achievements": [],
+      "volunteer": [],
+      "languages": "",
+      "updatedAt": "2026-01-13T16:19:53.551Z",
+      "template": "modern",
+      "id": "DQ8EWby"
+    },
+    {
+      "name": "G.Sri Vibhu",
+      "title": "Developer",
+      "phone": "33246745425",
+      "email": "asgag@gmail.com",
+      "linkedin": "",
+      "github": "",
+      "website": "",
+      "location": "",
+      "summary": "Expert in Full Stack",
+      "skills": {
+        "programming": "C,C++",
+        "frameworks": "",
+        "databases": "",
+        "tools": "",
+        "softskills": ""
+      },
+      "experience": [],
+      "projects": [],
+      "education": [],
+      "certifications": [],
+      "achievements": [],
+      "volunteer": [],
+      "languages": "",
+      "updatedAt": "2026-01-13T16:24:46.084Z",
+      "template": "modern",
+      "id": "BgNlek7"
+    },
+    {
+      "name": "M.Bhanu Teja",
+      "title": "Developer",
+      "phone": "3534654654234",
+      "email": "slnvfd@gmail.com",
+      "linkedin": "",
+      "github": "",
+      "website": "",
+      "location": "",
+      "summary": "Expert in Full Stack\n",
+      "skills": {
+        "programming": "C,C++",
+        "frameworks": "",
+        "databases": "",
+        "tools": "",
+        "softskills": ""
+      },
+      "experience": [],
+      "projects": [],
+      "education": [],
+      "certifications": [],
+      "achievements": [],
+      "volunteer": [],
+      "languages": "",
+      "updatedAt": "2026-01-13T16:26:45.477Z",
+      "template": "modern",
+      "id": "JQtf76s"
+    }
+  ],
+  "users": [
+    {
+      "email": "devarajhansi974@gmail.com",
+      "password": "devaraj@974",
+      "createdAt": "2025-12-02T14:17:08.030Z",
+      "id": 1
+    },
+    {
+      "email": "siddharth.tatineni06@gmail.com",
+      "password": "Sidda@2006",
+      "createdAt": "2026-01-14T02:12:59.112Z",
+      "id": 2
+    }
+  ],
+  "logins": [
+    {
+      "userId": 1,
+      "email": "devarajhansi974@gmail.com",
+      "loggedAt": "2025-12-02T14:17:08.127Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "email": "devarajhansi974@gmail.com",
+      "loggedAt": "2025-12-02T14:24:12.244Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "email": "devarajhansi974@gmail.com",
+      "loggedAt": "2025-12-02T14:26:57.104Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "email": "devarajhansi974@gmail.com",
+      "loggedAt": "2025-12-02T14:27:32.372Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "email": "siddharth.tatineni06@gmail.com",
+      "loggedAt": "2026-01-14T02:12:59.148Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "email": "siddharth.tatineni06@gmail.com",
+      "loggedAt": "2026-01-14T02:13:36.531Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "email": "siddharth.tatineni06@gmail.com",
+      "loggedAt": "2026-01-14T02:14:23.538Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "id": 7
+    }
+  ]
+}

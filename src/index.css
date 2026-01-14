@@ -1,0 +1,146 @@
+@import "tailwindcss";
+/* This targets every possible background layer */
+html, 
+body, 
+#root, 
+.App, 
+div[class*="container"], 
+main {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    background-image: none !important;
+}
+
+/* Use class-based dark mode: `.dark` on <html> controls all `dark:` styles */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@keyframes float-glow {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate3d(12px, -18px, 0) scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes shimmer-line {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(130%);
+    opacity: 0;
+  }
+}
+
+.glow-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(28px);
+  opacity: 0.7;
+  animation: float-glow 10s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+.glow-orb--violet {
+  background: radial-gradient(circle at 30% 30%, #a855f7, transparent 60%);
+}
+
+.glow-orb--indigo {
+  background: radial-gradient(circle at 70% 70%, #6366f1, transparent 60%);
+}
+
+.shimmer-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-border::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(244, 244, 245, 0.1),
+    rgba(196, 181, 253, 0.7),
+    rgba(244, 244, 245, 0.1),
+    transparent
+  );
+  opacity: 0;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation: shimmer-line 6s ease-in-out infinite;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+  #resume-preview {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  button {
+    display: none !important;
+  }
+}
+
+#root, #app, .app {
+  background-color: #000000 !important;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: block;
+}
+
+/* This removes the purple glow from the center box */
+div, section, main {
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+/* This adds the Gold Glow to your login card instead */
+.card, [class*="container"], [class*="login"], [class*="wrapper"] {
+    background-color: #000000 !important;
+    border: 1px solid #d4af37 !important;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4) !important; /* Gold Glow */
+}
+
+/* Force the main background to stay Pure Black */
+html, body, #root {
+    background-color: #000000 !important;
+    background: #000000 !important;
+}
+/* This targets the main box/card in the center */
+div[class*="card"], 
+div[class*="container"], 
+div[class*="login-box"], 
+.auth-container {
+    background-color: #0d0d0d !important; /* Slightly lighter than pure black for depth */
+    border: 1px solid #d4af37 !important; /* The gold border */
+    
+    /* This creates the 'Glossy Gold' glow effect */
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4), 
+                0 0 40px rgba(212, 175, 55, 0.2), 
+                inset 0 0 10px rgba(212, 175, 55, 0.1) !important;
+    
+    border-radius: 12px !important;
+}
+
+/* Let's also make the "SIGN IN TO YOUR ACCOUNT" text Gold */
+h2, h1, .title {
+    color: #fccb00 !important;
+    text-shadow: 0 0 8px rgba(252, 203, 0, 0.5) !important;
+    letter-spacing: 1px;
+}
